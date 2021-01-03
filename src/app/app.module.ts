@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RealTimeClockComponent } from './real-time-clock/real-time-clock.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RealTimeClockComponent
   ],
   imports: [
     BrowserModule,
